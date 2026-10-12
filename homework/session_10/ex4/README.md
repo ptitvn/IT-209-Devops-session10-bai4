@@ -208,7 +208,6 @@ cd homework/session_10/ex4
 chmod +x commands.sh
 ./commands.sh
 ```
-*(Trên Windows, bạn có thể chạy bằng Git Bash: `bash commands.sh`)*
 
 ---
 
