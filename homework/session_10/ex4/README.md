@@ -40,9 +40,9 @@
 ### 2.1 Default Bridge vs. Custom Bridge Network
 | Đặc điểm | Default Bridge (`bridge`) | Custom Bridge (`app-net`) |
 | :--- | :--- | :--- |
-| **Phân giải DNS tự động** | ❌ Không hỗ trợ (phải dùng `--link` đã deprecated hoặc IP tĩnh) | ✅ Tự động phân giải DNS qua container name / service name |
-| **Tính cô lập mạng** | ❌ Tất cả container không khai báo network đều vào đây chung | ✅ Chỉ các container được chỉ định mới có thể kết nối với nhau |
-| **Khả năng kết nối động** | ❌ Container phải cấu hình network lúc tạo | ✅ Có thể `docker network connect/disconnect` khi container đang chạy |
+| **Phân giải DNS tự động** |  Không hỗ trợ (phải dùng `--link` đã deprecated hoặc IP tĩnh) |  Tự động phân giải DNS qua container name / service name |
+| **Tính cô lập mạng** |  Tất cả container không khai báo network đều vào đây chung |  Chỉ các container được chỉ định mới có thể kết nối với nhau |
+| **Khả năng kết nối động** |  Container phải cấu hình network lúc tạo |  Có thể `docker network connect/disconnect` khi container đang chạy |
 | **Cấu hình bảo mật** | Thấp hơn | Cao hơn (Micro-segmentation) |
 
 ### 2.2 Named Volume vs. Container Storage Layer
