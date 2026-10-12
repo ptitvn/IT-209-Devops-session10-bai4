@@ -202,29 +202,13 @@ docker exec -i db-server psql -U postgres -d testdb -c "SELECT * FROM users;"
 
 ## 6. Hướng Dẫn Chạy & Kiểm Thử
 
-### Cách 1: Chạy tự động bằng Bash script (Linux / Git Bash / macOS)
+### Thực thi script commands.sh
 ```bash
 cd homework/session_10/ex4
 chmod +x commands.sh
 ./commands.sh
 ```
-
-### Cách 2: Chạy tự động trên Windows PowerShell
-```powershell
-cd homework/session_10/ex4
-.\test.ps1
-```
+*(Trên Windows, bạn có thể chạy bằng Git Bash: `bash commands.sh`)*
 
 ---
 
-## 7. Cấu Trúc Mã Nguồn Nộp Bài
-```text
-bai4/
-├── README.md
-└── homework/
-    └── session_10/
-        └── ex4/
-            ├── commands.sh   # Script thực thi toàn bộ yêu cầu đề bài
-            ├── test.ps1      # Script test tương thích Windows PowerShell
-            └── README.md     # Tài liệu báo cáo chi tiết
-```
